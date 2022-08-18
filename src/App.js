@@ -8,7 +8,7 @@ class App extends React.Component {
   render() {
     return (
       <main>
-        <Header className="header" />
+        <Header />
         <SolarSystem />
         <Missions />
       </main>
