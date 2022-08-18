@@ -1,3 +1,94 @@
 .App {
   text-align: center;
 }
+
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('images/background.png');
+  color: white;
+  font-family: Epilogue , cursive;
+  padding: 20px 50px;
+}
+
+header {
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 0;
+  padding: 35px;
+  text-align: center;
+}
+
+.solar-system-section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.solar-system-section h2 {
+  background: rgba(24, 26, 37, 0.5);
+  border: 2px solid rgb(175, 175, 175);
+  border-radius: 17px;
+  font-size: 1.5em;
+  line-height: 2em;
+  mix-blend-mode: hard-light;
+  text-align: center;
+  vertical-align: middle;
+  width: 90%;
+}
+
+.planetas {
+  display: flex;
+  margin: 30px 0;
+}
+
+.card {
+  align-items: center;
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 10px;
+}
+
+.card div {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.planetas .cardMercurio img {
+  width: 27px;
+}
+
+.planetas .cardVenus img {
+  width: 67px;
+}
+
+.planetas .cardTerra img {
+  width: 70px;
+}
+
+.planetas .cardMarte img {
+  width: 44px;
+}
+
+.planetas .cardJupiter img {
+  width: 180px;
+}
+
+.planetas .cardSaturno img {
+  width: 187px;
+}
+
+.planetas .cardUrano img {
+  width: 95px;
+}
+
+.planetas .cardNetuno img {
+  width: 95px;
+}
