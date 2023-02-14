@@ -1,13 +1,31 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# Projeto 08 - Solar System
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+Oi. Este foi um dos projetos que eu fiz durante meu curso na Trybe. Confira os detalhes dele abaixo.
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+
+
+
+## Nome do Projeto
+Solar System (Sistema Solar)
+
+## Linguagens e Ferramentas Utilizadas
+ - JavaScript
+ - HTML
+ - CSS
+ - [React](https://pt-br.reactjs.org/)
+
+
+## Objetivos do Projeto
+O intuito deste projeto foi aplicar os conhecimentos adquiridos acerca da biblioteca React. O projeto teve como estrutura a montagem de uma página que representasse o sistema solar. Utilizando a aplicação, a pessoa usuária é capaz de visualizar todos os planetas do sistema solar renderizados na tela, e também poderia visualizar algumas cartas com informações a respeito de missões espaciais.
+
+![Screenshot](screenshot.gif)
+
+## Instruções para visualização
+Comando para clonar o projeto:
+ - `git clone git@github.com:BrunoSayago/projeto-08-SolarSystem.git`
+ 
+Se necessário, instalar as dependências:
+ - `npm install`
+  
+Esse projeto pode ser visualizado no navegador utilizando o comando:
+- `npm start`
